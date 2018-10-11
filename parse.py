@@ -1,5 +1,5 @@
 import csv
-import pandas as pd
+#import pandas as pd
 
 def parse(filename):
   '''
