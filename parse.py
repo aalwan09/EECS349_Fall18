@@ -19,8 +19,25 @@ def parse(filename):
 
   return out
 
+
+
 dataset = parse("/Users/aea/Desktop/Northwestern/Year 4/Fall/EECS 349 - Machine Learning/Psets/PS1/house_votes_84.data")
-print(dataset[1:10])
+print(dataset[1])
+
+print(type(dataset))
+
+keys = list(dataset[1].keys())
+print(keys)
+
+values = []
+
+for item in dataset:
+    values.append(list(item.values()))
+    
+print(values[1])
+    
+
+#print(list(dataset.values()))
 
 #print(dataset['Class'])
     
